@@ -18,7 +18,7 @@ function SubmitBtn({ onPress }) {
       style={Platform.OS === 'ios' ? styles.iosSubmitBtn : styles.AndroidSubmitBtn}
       onPress={onPress}
     >
-      <Text style={styles.SubmitBtnText}>SUBMIT</Text>
+      <Text style={styles.submitBtnText}>SUBMIT</Text>
     </TouchableOpacity>
   )
 }
